@@ -23,11 +23,6 @@ export const Header = styled.header`
 
 export const Aside = styled.aside`
   margin-top: 44px;
-
-  span {
-    font-family: 'Poppins', sans-serif;
-    margin-left: 8px;
-  }
 `;
 
 export const SearchContainer = styled.div`

@@ -1,3 +1,4 @@
+import Checkbox from '../../components/Checkbox';
 import Input from '../../components/Input';
 import {
   Container,
@@ -14,8 +15,9 @@ export default function Home() {
       </Header>
 
       <Aside>
-        <input type="checkbox" value="Full Time" />
-        <span>Full Time</span>
+        <Checkbox>
+          Full time
+        </Checkbox>
         <SearchContainer>
           <strong>Location</strong>
           <Input maxWidth={379} height={48} placeholder="City, state, code or country" />
