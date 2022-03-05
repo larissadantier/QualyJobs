@@ -1,6 +1,5 @@
 import Checkbox from '../../components/Checkbox';
 import Input from '../../components/Input';
-import useFetch from '../../hooks/useFetch';
 import {
   Container,
   Header,
@@ -9,9 +8,6 @@ import {
 } from './styles';
 
 export default function Home() {
-  const { data } = useFetch('https://www.themuse.com/api/public/jobs?page=1');
-  console.log(data);
-
   return (
     <Container>
       <Header>

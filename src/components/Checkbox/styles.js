@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Label = styled.label`
+  width: 100%;
+  max-width:90px;
   display:flex;
   align-items:center;
 
